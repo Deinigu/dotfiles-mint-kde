@@ -1,0 +1,41 @@
+[$Version]
+update_info=kwinrules.upd:replace-placement-string-to-enum,kwinrules.upd:use-virtual-desktop-ids
+
+[4f304587-9cf2-4f8c-bd82-9aa3326dcbcc]
+Description=No titlebars
+noborder=true
+noborderrule=2
+wmclass=.*
+wmclassmatch=3
+
+[7d8e0cce-bc4e-481b-a7af-091f02c8e89f]
+Description=FloatingKitty
+fullscreenrule=2
+position=800,800
+positionrule=3
+size=800,800
+sizerule=3
+wmclass=floatingkitty
+wmclassmatch=1
+
+[8238a14e-cf08-49b2-bed8-ea8fdaaaef20]
+Description=New window settings
+minsizerule=2
+types=1
+
+[General]
+count=1
+rules=ac449aa3-c017-4db7-832d-f8bdb89a29cb
+
+[ac449aa3-c017-4db7-832d-f8bdb89a29cb]
+Description=No titlebar and frame
+noborder=true
+noborderrule=2
+types=1
+
+[c87a86e0-8b2c-4d0b-8d18-68c6cfa8e94d]
+Description=No titlebars
+noborder=true
+noborderrule=2
+wmclass=.*
+wmclassmatch=3

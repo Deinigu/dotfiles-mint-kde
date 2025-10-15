@@ -1,0 +1,9 @@
+[General]
+SplitterSizes=471,731
+
+[MainWindow]
+2 screens: XPosition=673
+2 screens: YPosition=935
+DisplayPort-2 HDMI-A-0=DisplayPort-2
+State=AAAA/wAAAAD9AAAAAAAABL0AAAFuAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
