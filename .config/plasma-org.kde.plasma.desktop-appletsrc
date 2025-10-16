@@ -231,6 +231,9 @@ plugin=org.kde.plasma.panelspacer
 [Containments][202][Applets][244][Configuration]
 PreloadWeight=34
 
+[Containments][202][Applets][244][Configuration][General]
+expanding=false
+
 [Containments][202][Applets][248]
 immutability=1
 plugin=org.kde.windowtitle
@@ -250,6 +253,28 @@ iconSize=48
 spacing=8
 style=ApplicationTitle
 
+[Containments][202][Applets][249]
+immutability=1
+plugin=org.kde.plasma.kickoff
+
+[Containments][202][Applets][249][Configuration]
+PreloadWeight=100
+popupHeight=569
+popupWidth=713
+
+[Containments][202][Applets][249][Configuration][ConfigDialog]
+DialogHeight=660
+DialogWidth=880
+
+[Containments][202][Applets][249][Configuration][General]
+favoritesPortedToKAstats=true
+icon=/home/deltablade/Downloads/Nerd(1).png
+systemFavorites=suspend\\,hibernate\\,reboot\\,shutdown
+
+[Containments][202][Applets][250]
+immutability=1
+plugin=org.kde.plasma.panelspacer
+
 [Containments][202][ConfigDialog]
 DialogHeight=89
 DialogWidth=2560
@@ -258,7 +283,7 @@ DialogWidth=2560
 PreloadWeight=26
 
 [Containments][202][General]
-AppletOrder=248;244;234;237;206;204
+AppletOrder=249;244;248;250;234;237;206;204
 
 [Containments][207]
 activityId=

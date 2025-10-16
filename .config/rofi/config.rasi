@@ -1,0 +1,61 @@
+@import "catppuccin-macchiato"
+configuration {
+	display-drun: "Applications:";
+	display-window: "Windows:";
+	drun-display-format: "{icon} {name}";
+	font: "JetBrainsMono Nerd Font Medium 10";
+	modi: "window,run,drun";
+	show-icons: true;
+	icon-theme: "Papirus";
+
+
+}
+
+@theme "catppuccin-custom"
+
+* {
+border: 0;
+margin: 0;
+padding: 0;
+}
+
+window {
+	width: 45%;
+}
+
+element {
+	padding: 12;
+}
+
+element selected {
+	background-color: #1e66f5;
+}
+
+element-text {
+background-color: inherit;
+text-color: inherit;
+vertical-align: 0.5;
+}
+
+element-icon {
+	size: 30;
+	}
+
+entry {
+	padding: 12;
+	}
+inputbar {
+children: [prompt, entry];
+}
+listview {
+	columns: 1;
+	lines:8;
+	}
+mainbox {
+children: [inputbar, listview];
+}
+
+prompt{
+enabled: true;
+padding: 12 0 0 12;
+}
